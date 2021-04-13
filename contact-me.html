@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        tr{
+            text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="D:\Projects\Front End\HTML Personal Website\css\styles.css">
+    <script src="https://kit.fontawesome.com/1b87869e69.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1><i class="fas fa-envelope-open-text"></i>Contact Me</h1>
+    <form action="#" id="form1">
+        <table>
+            <tr>
+                <th><label>First Name: </label></th>
+                <td><input type="text" placeholder="Enter Your First Name"></td>
+            </tr>
+            <tr>
+                <th><label>Last Name: </label></th>
+                <td><input type="text" placeholder="Enter Your Last Name"></td>
+            </tr>
+            <tr>
+                <th><label>Email Id:</label></th>
+                <td><input type="email" placeholder="Enter a valid Email Id"></td>
+            </tr>
+            <tr>
+                <th><label>Country:</label></th>
+                <td>
+                    <select id="country" name="country">
+                    <option value = "India">India</option>
+                    <option value = "China">China</option>
+                    <option value = "Japan">Japan</option>
+                    <option value = "USA">USA</option>
+                    <option value = "UK">UK</option>
+                    <option value = "France">France</option>
+                    <option value = "Germany">Germany</option>
+                    <option value = "Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>If choosen other,<br> please type in<br> your country:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <th><label>Enter Your Message:</label></th>
+                <td><textarea rows="10" cols="50"></textarea></td>
+            </tr>
+        </table>
+    </form>
+    <button type="submit" form="form1" value="">Submit</button>
+    <button type="reset" form="form1" value="">Reset</button>
+</body>
+</html>
