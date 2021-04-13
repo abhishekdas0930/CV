@@ -1,0 +1,23 @@
+.skill{
+    border: solid black;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 7px;
+    width: 5%;
+}
+
+body{
+    background-color: #d5ecc2;
+}
+
+h1{
+    color: #ce1212;
+}
+
+h2{
+    color: #f05945;
+}
